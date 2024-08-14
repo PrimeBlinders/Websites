@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 39px;
+            font-size: 80px;        
+        }
+        .tile {
+            background-color: #007BFF;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 18px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .tile:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <a href="https://www.okta.com" target="_blank" class="tile">Okta</a>
+    <a href="https://www.google.com" target="_blank" class="tile">Google</a>
+    <a href="https://www.github.com" target="_blank" class="tile">GitHub</a>
+</div>
+
+</body>
+</html>
